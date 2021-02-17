@@ -37,6 +37,7 @@ body {
     font-family: "Kumbh Sans", sans-serif;
     color: var(--Very-dark-blue);
     font-size: 13px;
+    
 }
 
 .container {
@@ -57,10 +58,15 @@ body {
 }
 
 .card__title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.card__title > span {
+    margin-left: 8px;
 }
 
 .card__subtitle {
+    font-size: 13px;
     margin-bottom: 25px;
 }
 
@@ -87,6 +93,7 @@ body {
 .card__items > p {
     margin-top: 5px;
     letter-spacing: 1px;
+    font-size: 10px;
 }
 
 .attribution {
